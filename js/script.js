@@ -26,12 +26,12 @@ function checkGuess() {
     guesses.textContent += userGuess + ' ';
   
     if (userGuess === randomNumber) {
-      lastResult.textContent = '¡Felicidades! ¡Lo adivinaste!';
+      lastResult.textContent = '¡Lo adivinaste!';
       lastResult.style.backgroundColor = 'green';
       lowOrHi.textContent = '';
       setGameOver();
     } else if (guessCount === 10) {
-      lastResult.textContent = '¡¡¡Fin del juego!!!';
+      lastResult.textContent = '¡Fin del juego!';
       setGameOver();
     } else {
       lastResult.textContent = '¡Incorrecto!';

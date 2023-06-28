@@ -8,7 +8,7 @@ body {
   max-width: 800px;
   min-width: 480px;
   margin: 0 auto;
-  background-color: palevioletred;
+  background-color: rgb(159, 30, 112);
 }
 
 .form input[type="number"] {
